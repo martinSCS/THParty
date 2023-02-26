@@ -1,22 +1,8 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	@include('components.header')
 	<title>注册 - THParty</title>
-
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-	<script type="application/javascript" src="https://cdn.staticfile.org/jquery/3.6.0/jquery.min.js"></script>
-	<!--
-	<link rel="stylesheet" href="/css/bootstrap.min.css" />
-	<script type="application/javascript" src="/js/jquery-3.6.0.min.js"></script>
-	<script type="application/javascript" src="/js/bootstrap.bundle.min.js"></script>
-	-->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.css" />
-	<!--
-	<link rel="stylesheet" href="/css/login.css" />
-	-->
 </head>
 <body>
 <div id="bgCover"></div>
@@ -60,6 +46,6 @@
 		</div>
 	</div>
 </div>
-@include("footer")
+@include('components.footer')
 </body>
 </html>
