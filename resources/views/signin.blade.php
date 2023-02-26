@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 	@include('components.header')
-	<title>注册 - THParty</title>
+	<title>注册页 - THParty</title>
 </head>
 <body>
 <div id="bgCover"></div>
